@@ -1,0 +1,99 @@
+.dashboard {
+  background-color: #0000ff; /* Ensure the overall background remains blue */
+}
+
+.header-background {
+  background-image: url('./image.jfif'); /* Ensure this path matches the actual location of your image file */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.centered-header {
+  text-align: center;
+  color: white; /* Ensure text is readable against the background image */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better readability */
+  border-radius: 10px;
+}
+.user-profile {
+  text-align: right;
+  color: rgb(64, 230, 22);
+  background-color: rgba(92, 23, 219, 0.5); /* Optional: Add a semi-transparent background for better readability */
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.chart {
+  width: 45%;
+  margin: 10px;
+}
+
+.control-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.control-button:hover {
+  background-color: #0056b3;
+}
+
+.blue-background {
+  background-color: #0000ff;
+}
+
+.portfolio {
+  margin: 20px;
+  text-align: center;
+  border: 2px solid #007bff; /* Add border to the portfolio division */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  padding: 20px; /* Add padding inside the border */
+  background-color: rgba(134, 207, 17, 0.1); /* Optional: Add a semi-transparent background */
+}
+
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.portfolio-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.portfolio-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-image: url('./download.jfif'); /* Ensure this path matches the actual location of your image file */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content {
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+}
